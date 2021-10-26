@@ -7,7 +7,7 @@ const app = express()
 
 // Route
 app.get("/", (req, res) => {
-    res.send("Howdy Partner")
+    res.send("Howdy Partners")
 })
 
 //listener
