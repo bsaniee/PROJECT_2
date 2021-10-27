@@ -4,6 +4,12 @@
 ## Project Summary
 For this project I will be making a contact directory that allows users to sign in, input contact information that is saved for the particular user, 
 and sign out. 
+The contact information will include: 
+Full Name: 
+Phone Number:
+Email Address:
+Webpage:
+Street Address:
 
 ## Models
 list models here
