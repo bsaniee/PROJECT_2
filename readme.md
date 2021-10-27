@@ -8,13 +8,15 @@ and sign out.
 ## Models
 list models here
 
+
 ## Route Table
 List your routes in a table
 
 | url | method | action |
 |-----|--------|--------|
-| /todo | get | get all todos (index)|
-| /todo/:id | get | get a particular todo (show)|
+| /contacts | get | View all contacts (index)|
+| /contacts/:id | get | get a particular contact (show)|
+| /contacts/new | get | create a new contact to add to index (new) |
 
 ## User Stories
 
