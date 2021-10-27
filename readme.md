@@ -1,7 +1,9 @@
 # Project 2 
 #### By Bijan Saniee
 
-## Projet Summary
+## Project Summary
+For this project I will be making a contact directory that allows users to sign in, input contact information that is saved for the particular user, 
+and sign out. 
 
 ## Models
 list models here
@@ -19,3 +21,4 @@ List your routes in a table
 ## Challenges
 
 ## List of Technologies
+Node.js, liquid, mongoDB, mongoose, html, css
