@@ -12,7 +12,7 @@ Webpage:
 Street Address:
 
 ## Models
-list models here
+contact schema and model using mongoose with properties name, number, email, webpage, address
 
 
 ## Route Table
