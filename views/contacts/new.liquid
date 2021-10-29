@@ -1,0 +1,17 @@
+{% layout "layout.liquid" %} {% block content %}
+<div>
+  <form action="/contacts" method="post">
+    <fieldset>
+      <legend>Create a New Contact</legend>
+      <label>
+        NAME:<input type="text" name="name" placeholder="enter contact name" />
+      </label>
+      <label>
+        NUMBER:<input type="text" name="number" placeholder="enter contact number" />
+      </label>
+    </fieldset>
+    <input type="submit" value="create new contact" />
+  </form>
+  <a href="/contacts/"><button>Back to Index</button></a>
+</div>
+{% endblock %}

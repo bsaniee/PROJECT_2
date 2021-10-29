@@ -1,0 +1,12 @@
+{% layout "layout.liquid" %} {% block content %}
+<div>
+    <a href="/contacts/new"><button>Create A New Contact</button></a>
+    <a href="/user/logout"><button>Logout</button></a>
+    {% for contact in contacts %}
+  <article>
+    <a href="/contacts/{{ contact._id }}">
+    </a>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

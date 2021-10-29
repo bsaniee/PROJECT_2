@@ -1,0 +1,26 @@
+{% layout "layout.liquid" %} {% block content %}
+<div>
+  <form action="/contacts/{{contact._id}}?_method=PUT" method="post">
+    <fieldset>
+      <legend>Edit {{contact.name}}</legend>
+      <label>
+        NAME:<input
+          type="text"
+          name="name"
+          placeholder="enter contact name"
+          value="{{fruit.name}}"
+        />
+      </label>
+      <label>
+        COLOR:<input
+          type="text"
+          name="color"
+          placeholder="enter fruit name"
+          value="{{contact.number}}"
+        />
+      </label>
+    </fieldset>
+    <input type="submit" value="Edit {{contact.name}}" />
+  </form>
+</div>
+{% endblock %}
