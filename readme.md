@@ -29,7 +29,7 @@ List your routes in a table
 | /contacts:/id | put | updates a contact object that has been edited |
 
 ## User Stories
-A user signs up or logs in to the website, and is then shown an index list of contacts associated with their account. A user can press a "create contact" button to create a new contact to add to the index, an "edit contact" button to edit existing contacts from the list, and "delete contact" to remove a contact from the index. The contacts should be listed in the index alphabetically, making it easy for the user to find a contact.
+A user signs up or logs in to the website, and is then shown an index list of contacts associated with their account. A user can press a "create contact" button to create a new contact to add to the index, an "edit contact" button to edit existing contacts from the list, and "delete contact" to remove a contact from the index. The contacts should be listed in the index alphabetically, making it easy for the user to find a contact. If a contact is clicked, the user is brought to a show page where the contact information such as phone number, email address, etc. is listed in an organized manner.
 
 ## Challenges
 
