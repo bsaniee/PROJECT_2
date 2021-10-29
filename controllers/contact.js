@@ -67,7 +67,7 @@ router.post("/", (req, res) => {
   //edit route
   router.get("/:id/edit", (req, res) => {
       const id = req.params.id
-      //get the fruit with matching id
+      //get the contact with matching id
       Contact.findById(id)
       .then((fruit) => {
           res.render("contacts/edit.liquid", { fruit })
@@ -98,7 +98,7 @@ router.post("/", (req, res) => {
     router.put("/:id", (req, res) => {
         // get the id from params
         const id = req.params.id;
-        // update the fruit
+        // update the contact
         Contact.findByIdAndUpdate(id, req.body, { new: true })
           .then((contact) => {
             // redirect to main page after updating

@@ -4,11 +4,11 @@
 // import the existing connected mongoose object from connection.js
 const mongoose = require("./connection")
 
-//Create our Fruits model
+//Create our contact model
 //////////////////////////
 const {Schema, model} = mongoose //destructuring Schema and Model from mongoose
 
-//make fruits Schema
+//make contact Schema
 const contactSchema = new Schema({
     name: String,
     number: String, 
@@ -17,7 +17,7 @@ const contactSchema = new Schema({
     address: String,
 })
 
-//Make the Fruit Model
+//Make the contact Model
 const Contact = model("Contact", contactSchema)
 
 //log to test it exists
