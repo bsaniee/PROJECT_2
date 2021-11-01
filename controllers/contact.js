@@ -69,8 +69,8 @@ router.post("/", (req, res) => {
       const id = req.params.id
       //get the contact with matching id
       Contact.findById(id)
-      .then((fruit) => {
-          res.render("contacts/edit.liquid", { fruit })
+      .then((contact) => {
+          res.render("contacts/edit.liquid", { contact })
       })
       .catch((error) => {
         console.log(error);

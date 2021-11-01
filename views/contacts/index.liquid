@@ -3,7 +3,7 @@
     <a href="/contacts/new"><button>Create A New Contact</button></a>
     <a href="/user/logout"><button>Logout</button></a>
     {% for contact in contacts %}
-  <article>
+  <article class = "article">
     <a href="/contacts/{{ contact._id }}">
         <h2>{{contact.name}}</h2>
     </a>

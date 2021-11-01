@@ -1,0 +1,30 @@
+main {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+button {
+    background-color: 	#7cca4d;
+    border: 0.1rem solid 	#9b4dca
+}
+
+input[type='submit'] {
+    background-color: 	#7cca4d;
+    border: 0.1rem solid 	#9b4dca
+}
+
+.article {
+    margin: 40px;
+
+}
+
+.show {
+    text-align: left;
+}
+.new {
+    text-align: left;
+}
+.edit {
+    text-align: left;
+}

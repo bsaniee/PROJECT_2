@@ -1,5 +1,5 @@
 {% layout "layout.liquid" %} {% block content %}
-<div>
+<div class = "edit">
   <form action="/contacts/{{contact._id}}?_method=PUT" method="post">
     <fieldset>
       <legend>Edit {{contact.name}}</legend>
