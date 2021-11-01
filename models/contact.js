@@ -21,7 +21,7 @@ const contactSchema = new Schema({
 const Contact = model("Contact", contactSchema)
 
 //log to test it exists
-//console.log(Contact)
+console.log(Contact)
 
 ///////////////////////////
 // Export contact model
