@@ -15,13 +15,14 @@ const contactSchema = new Schema({
     email: String, 
     webpage: String,
     address: String,
+    username: String,
 })
 
 //Make the contact Model
 const Contact = model("Contact", contactSchema)
 
 //log to test it exists
-console.log(Contact)
+//console.log(Contact)
 
 ///////////////////////////
 // Export contact model
