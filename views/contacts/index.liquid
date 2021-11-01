@@ -5,6 +5,7 @@
     {% for contact in contacts %}
   <article>
     <a href="/contacts/{{ contact._id }}">
+        <h2>{{contact.name}}</h2>
     </a>
   </article>
   {% endfor %}
